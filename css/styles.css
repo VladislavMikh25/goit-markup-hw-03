@@ -94,8 +94,11 @@ body {
 .header-container {
   display: flex;
   align-items: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.header-section {
+  border-bottom: 1px solid #ececec;
 }
 
 .site-nav {
@@ -197,10 +200,9 @@ body {
 
 .project-section {
   padding-bottom: 94px;
-  padding-top: 94px;
 }
 .section-title {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
@@ -233,7 +235,6 @@ body {
   margin: 0 auto;
   display: flex;
   align-items: center;
-  padding-bottom: 94px;
 }
 
 .chek-item {
@@ -259,8 +260,8 @@ body {
   text-align: center;
 }
 
-.team-container {
-  margin-bottom: 94px;
+.team-section {
+  padding-bottom: 94px;
 }
 /* footer */
 .address {
@@ -303,12 +304,7 @@ body {
   margin-left: 30px;
   margin-bottom: 30px;
 }
-.button-container {
-  padding-top: 6px;
-  padding-bottom: 6px;
-  padding-left: 22px;
-  padding-right: 22px;
-}
+
 .button-prof {
   font-family: Roboto;
   font-style: normal;
@@ -327,6 +323,12 @@ body {
   border-radius: 4px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
+.button-section {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+  padding-right: 22px;
+}
 .button-list {
   margin-bottom: 50px;
 }
@@ -335,12 +337,16 @@ body {
   padding-bottom: 20px;
   padding-left: 24px;
   padding-right: 24px;
-  border: 1px solid #212121;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
 .project-container {
   display: block;
   margin: 0 auto;
-  max-width: 1200px;
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 .projects-list {
   list-style: none;
