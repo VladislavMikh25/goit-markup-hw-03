@@ -60,15 +60,15 @@ body {
   color: #2196f3;
 }
 
-.header-link {
-  font-style: Medium;
+.header-list {
+  font-weight: 500;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-title-color);
 }
 .address {
-  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -77,7 +77,6 @@ body {
   color: var(--primary-title-color);
 }
 .contact-link {
-  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
